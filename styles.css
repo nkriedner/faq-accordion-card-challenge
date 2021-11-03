@@ -16,4 +16,10 @@ body {
 .card-container {
     width: 900px;
     background-color: #fff;
+    display: flex;
+}
+
+.illustration,
+.faq-text {
+    flex-basis: 50%;
 }
