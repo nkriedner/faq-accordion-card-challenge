@@ -23,3 +23,27 @@ body {
 .faq-text {
     flex-basis: 50%;
 }
+
+/* ACCORDION FUNCTIONALITY */
+input {
+    display: none; /* hides input checkbox */
+}
+
+label {
+    display: block;
+    cursor: pointer;
+    color: grey;
+    transition: ease 0.5s;
+}
+
+label:hover {
+    color: #000;
+}
+
+input + label + .answer {
+    display: none;
+}
+
+input:checked + label + .answer {
+    display: block;
+}
