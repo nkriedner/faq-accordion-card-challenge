@@ -47,3 +47,7 @@ input + label + .answer {
 input:checked + label + .answer {
     display: block;
 }
+
+input:checked + label > .icon-arrow {
+    transform: rotate(180deg);
+}
