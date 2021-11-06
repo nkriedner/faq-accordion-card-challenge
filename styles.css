@@ -24,6 +24,22 @@ body {
     flex-basis: 50%;
 }
 
+.faq-text {
+    padding: 2rem;
+}
+
+.question {
+    margin-right: 4rem;
+}
+
+.answer {
+    padding-top: 0.8rem;
+}
+
+hr {
+    margin: 0.8rem 0;
+}
+
 /* ACCORDION FUNCTIONALITY */
 input {
     display: none; /* hides input checkbox */
@@ -34,6 +50,14 @@ label {
     cursor: pointer;
     color: grey;
     transition: ease 0.5s;
+    display: flex;
+    justify-content: space-between;
+}
+
+label img {
+    width: 10px;
+    height: 10px;
+    align-self: center;
 }
 
 label:hover {
